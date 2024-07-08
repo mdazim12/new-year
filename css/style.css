@@ -53,3 +53,20 @@ header{
 
 }
 
+        /*hero_section css*/
+.hero_section{
+    background-image:linear-gradient(180.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%)
+    ,url(../assets/images/Banner\ Image.png);
+    width: 1330px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+  
+
+    
+}
+
+
+
