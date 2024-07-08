@@ -2,5 +2,54 @@
 
 *{
     font-family: "Merriweather", serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: white;
+  
+}
+
+
+.main_header{
+    
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f1f1f1;
+  padding: 10px 0px;
+}
+.header_logo{
+    text-align: center;
+    width: 30%;
+}
+.header_logo a{
+    text-decoration: none;
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+}
+.main_menu{
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
+}
+.main_menu ul{
+    display: flex;
+    justify-content: center;
+}
+.main_menu ul li{
+    list-style-type: none;
+    display: block;
+    padding: 10px 20px;
+    
+}
+.main_menu ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    
+
 }
 
