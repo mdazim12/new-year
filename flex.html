@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex boc</title>
+
+    <style>
+        .contanier{
+            display: flex;
+            gap: 20px;
+        }
+
+        .box{
+            background-color: aquamarine;
+            border-radius: 20px;
+            padding: 20px;
+        }
+
+        @media screen and (max-width: 572px){
+            .contanier{
+                flex-direction: column;
+            }
+            
+        }
+
+    </style>
+</head>
+<body>
+    <h1>This is flex box</h1>
+    <div class="contanier">
+        <div class="box">
+            <h2>first box</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, ea. At quas dignissimos a aperiam voluptas temporibus exercitationem repellendus magni deserunt autem sint earum libero provident laudantium veniam, facere ex.</p>
+        </div>
+        <div class="box">
+            <h2>first box</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, ea. At quas dignissimos a aperiam voluptas temporibus exercitationem repellendus magni deserunt autem sint earum libero provident laudantium veniam, facere ex.</p>
+        </div>
+    </div>
+</body>
+</html>
